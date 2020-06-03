@@ -9,16 +9,17 @@ public class JavaScanner {
 		int a,c=0;
 		int sum = 0;
 
-		System.out.print("½ÃÀÛ¡¡¼ıÀÚ£º¡¡");
+		System.out.print("çŸ«ç´¯ã€€ç®­ç£Šï¼šã€€");
 		a = in.nextInt();
 		
-		System.out.print("¸¶Áö¸·¡¡¼ıÀÚ£º¡¡");
+		System.out.print("ä»˜ç˜¤é˜œã€€ç®­ç£Šï¼šã€€");
 		c = in.nextInt();
 		
 		for(int i = a; i <= c; i++) {
 			sum += i;
 		}
-		System.out.println(a + "ºÎÅÍ " + c + "±îÁöÀÇ ÇÕÀº " + sum);
+		System.out.println(a + "ä½•ç£ " + c + "é³–ç˜¤ç‹¼ é’¦ç¯® " + sum);
+		System.out.println("test");
 	}
 
 }
