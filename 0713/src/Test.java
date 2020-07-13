@@ -8,3 +8,4 @@ public class Test {
 	}
 
 }
+git bash 실행 후 환경설정 하고 나서 수행평가 시작!!
